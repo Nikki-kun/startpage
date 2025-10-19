@@ -25,7 +25,7 @@ class Links extends Component {
               ${
           links.map((link) => `
                   <div class="link-info">
-                    <a href="${link.url}">
+                    <a href="${link.url}" target="_blank">
                       ${Links.getIcon(link)}
                       ${
             link.name ? `<p class="link-name">${link.name}</p>` : ""
